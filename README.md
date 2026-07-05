@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio showcasing my journey as a **Software Engineer**, **AI/ML Engineer**, and **Data Analyst**. Built with a focus on clean design, smooth interactions, and performance.
 
-🔗 **Live Demo:** _Coming Soon_
+🔗 **Live Demo:** https://shrirakshapacharya.vercel.app/
 
 ---
 
