@@ -1,61 +1,117 @@
-# Shriraksha P Acharya — Editorial Portfolio
+# 🌐 Shriraksha P Acharya – Portfolio
 
-A monochrome, editorial, luxury-brand-style portfolio. React, TypeScript, Vite, Tailwind CSS, Framer Motion.
+A modern, responsive personal portfolio showcasing my journey as a **Software Engineer**, **AI/ML Engineer**, and **Data Analyst**. Built with a focus on clean design, smooth interactions, and performance.
 
-## Getting started
+🔗 **Live Demo:** _Coming Soon_
+
+---
+
+## ✨ Features
+
+- Modern dark-themed UI
+- Fully responsive design
+- Smooth animations with Framer Motion
+- Project showcase with GitHub & Live Demo links
+- Interactive skills section
+- Experience & achievements timeline
+- Resume download
+- Contact section with social links
+- Optimized for performance and accessibility
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- shadcn/ui
+
+---
+
+## 📂 Featured Projects
+
+- 📚 LearnWise – AI-powered adaptive learning platform
+- 📊 Multi-Touch Marketing Attribution & ROI Engine
+- 🎵 Spotify Data Pipeline
+- 🏥 Clinical Trial Monitoring Dashboard
+- 👥 PeerLearn
+- 🎙️ Multi-Modal Voice Liveness Detection *(In Progress)*
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/acharyaraksha84/Portfolio.git
+```
+
+Navigate into the project
+
+```bash
+cd Portfolio
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:5173 (or the port Vite prints).
-
-## Build for production
+Build for production
 
 ```bash
 npm run build
+```
+
+Preview the production build
+
+```bash
 npm run preview
 ```
 
-## Customize your content
+---
 
-Everything you'll want to edit lives in:
+## 📁 Project Structure
 
-```
-src/data/content.ts
-```
-
-Name, roles, statement, bio, education, location, availability, skills, experience, projects, and contact info.
-
-## Add your portrait and resume
-
-- The hero's center column has a placeholder portrait block in `src/components/sections/Hero.tsx` (the `Portrait` component). Drop a **grayscale** photo at `public/portrait.jpg` and replace the placeholder `<div>` with an `<img src="/portrait.jpg" className="h-full w-full object-cover" />`. For the desaturated look, either export the photo in black & white, or add `className="... grayscale"` to the image.
-- Drop your resume PDF at `public/resume.pdf` — the Resume buttons already link to `/resume.pdf`.
-
-## Wire up the contact form
-
-`src/components/sections/Contact.tsx` has a UI-only form. Connect `handleSubmit` to Formspree, Resend, or your own backend.
-
-## Design system
-
-- **Palette:** strictly monochrome — `#0A0A0A` background, `#111111` secondary, `#171717` cards, white text, `#A1A1AA` muted text, `#D4D4D4` as the only "accent" (used sparingly, e.g. the last-name highlight in the hero).
-- **Type:** Inter, used at two extremes — huge/bold display sizes (`text-hero`, `text-display` in `tailwind.config.ts`) and wide-tracked uppercase labels (`.label-eyebrow` in `index.css`) for an editorial contrast.
-- **Signature element:** the hero's center portrait column, which visually overlaps into the About section below it via a negative top margin — echoing the "image overlaps the layout" instruction in the brief.
-
-## Folder structure
-
-```
+```text
 src/
-  components/
-    layout/     # Navbar, Footer, scroll progress, loading screen, scroll-to-top
-    sections/   # Hero, About, Projects, Experience, Skills, Contact
-    ui/         # Reveal, SectionHeading, MagneticButton, Chip
-  data/         # content.ts — all copy and structured data
-  hooks/        # useActiveSection, useMagnetic, useCounter
-  types/        # shared TypeScript interfaces
+ ├── components/
+ ├── data/
+ ├── hooks/
+ ├── pages/
+ ├── styles/
+ ├── types/
+ └── utils/
+
+public/
+ ├── images/
+ ├── resume.pdf
+ └── favicon.ico
 ```
 
-## Deploy
+---
 
-Works out of the box on Vercel, Netlify, or GitHub Pages. Build output goes to `dist/`.
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/acharyaraksha84
+- **LinkedIn:** https://www.linkedin.com/in/shrirakshapacharya84
+- **LeetCode:** https://leetcode.com/u/raksha84
+- **Email:** shrirakshapacharya@gmail.com
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
